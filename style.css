@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+/*Barra de Navegação*/
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+}
+.c-pesquisa{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.botao-login{
+    border: 1px solid #2A7AE4;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.caixa-pesquisa{
+    width: 260px;
+    height: 40px;
+    padding: 0px 20px;
+    border: none;
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+.caixa-pesquisa{
+    background-image: url(imagens/Vector.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: 1.2rem;
+    background-origin: content-box;
+}
+/*Section Banner*/
+.banner{
+    background: url(imagens/banner.png) no-repeat;
+    height: 352px;
+}
+.banner, .conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-top: 35px;
+    padding-left: 90px;
+}
+.conteudo h1{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.conteudo h2{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.conteudo a{
+    width: 100px;
+    background: #2A7AE4;
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+/*Rodapé*/
